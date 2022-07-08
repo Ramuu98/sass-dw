@@ -1,0 +1,25 @@
+header {
+    background: #dfca6ce3;
+}
+
+.nav-linkss>ul>li>a {
+    color: #000000;
+    font-family: Arial;
+    font-size: 18px;
+    text-decoration: none;
+
+    &:after {
+        content: "";
+        width: 0%;
+        height: 2px;
+        background-color: #000000;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+}
+
+    &:hover::after {
+    width: 100%;
+}
+
+}

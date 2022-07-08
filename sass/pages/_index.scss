@@ -1,0 +1,22 @@
+.card-style {
+    background: #daa543;
+}
+
+.p-style {
+    font-family: Arial;
+    font-size: 16px;
+    color: #000000;
+
+}
+
+h4 {
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #000000;
+
+    &.titlee {
+        text-decoration: underline;
+    }
+
+}
